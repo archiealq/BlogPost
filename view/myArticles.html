@@ -15,33 +15,52 @@
 </head>
 <body>
     
-    <!-- menu -->
-  
+     <!-- menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="../main.html">BlogPost</a>
-  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="../main.html">BlogPost</a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="../main.html">Home <span class="visually-hidden">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="view/createArticle.html">Create Articles</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="view/myArticles.html">My Articles</a>
-            </li>
-            <li class="nav-item">
-                <button type="button" class="btn btn-danger">Logout</button>
-            </li>
-            </ul>
-        </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../main.html">
+              Home 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="readArticles.html">View Blog Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="createArticle.html">Create Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myArticles.html">My Articles</a>
+          </li>
+          <li class="nav-item">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Logout
+            </button>
+          </li>
+        </ul>
+      </div>
     </nav>
+
 
 
     <table class="table">

@@ -105,6 +105,46 @@ body {
   border-radius: 8px;
 }
 
+.blog-post-read {
+    max-width: 700px;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .blog-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+  }
+
+  .blog-intro {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .blog-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .date-written {
+    font-weight: 600;
+  }
+
+  .author {
+    font-style: italic;
+  }
+
+  .blog-body p {
+    margin-bottom: 1.25rem;
+  }
+
 
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
